@@ -13,7 +13,7 @@ A comprehensive, strongly-typed Rust library for managing Unicode locales, built
 [![CLDR](https://img.shields.io/badge/CLDR-{{cldr_version}}-162447?style=for-the-badge)](https://cldr.unicode.org/)
 [![Crates.io License](https://img.shields.io/crates/l/locale-rs?style=for-the-badge&color=162447)](https://crates.io/crates/locale-rs)
 -->
-[![CLDR](https://img.shields.io/badge/CLDR-48.2.2-162447?style=for-the-badge)](https://cldr.unicode.org/)
+[![CLDR](https://img.shields.io/badge/CLDR-48.2.3-162447?style=for-the-badge)](https://cldr.unicode.org/)
 [![Crates.io License](https://img.shields.io/crates/l/locale-rs?style=for-the-badge&color=162447)](https://crates.io/crates/locale-rs)
 <!-- /gen -->
 
@@ -60,11 +60,11 @@ locale-rs = { version = "{{crate_version_req}}", features = ["all"] }
 ```toml
 [dependencies]
 # Standard installation
-locale-rs = "0.4.0-rc.1"
+locale-rs = "0.4.0-rc.2"
 
 # Or opt into specific features
-locale-rs = { version = "0.4.0-rc.1", features = ["nums"] }
-locale-rs = { version = "0.4.0-rc.1", features = ["all"] }
+locale-rs = { version = "0.4.0-rc.2", features = ["nums"] }
+locale-rs = { version = "0.4.0-rc.2", features = ["all"] }
 ```
 <!-- /gen -->
 
@@ -155,7 +155,7 @@ locale/
 
 | Feature | Description |
 | --- | --- |
-| **<!-- gen:{{locale_count}} -->766<!-- /gen --> Unicode Locales** | Complete CLDR <!-- gen:{{cldr_version}} -->48.2.2<!-- /gen --> coverage out of the box. |
+| **<!-- gen:{{locale_count}} -->766<!-- /gen --> Unicode Locales** | Complete CLDR <!-- gen:{{cldr_version}} -->48.2.3<!-- /gen --> coverage out of the box. |
 | **Type-Safe Locales** | Compile-time validated enum variants. |
 | **Number Formatting** | Locale-aware formatting using native digits. |
 | **Currency Formatting** | CLDR currency patterns, symbols and fraction digits for any currency. |

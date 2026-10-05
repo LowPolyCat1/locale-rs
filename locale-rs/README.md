@@ -6,7 +6,7 @@ A strongly-typed Rust library for Unicode locales, built directly on the **CLDR 
 
 ## Features
 
-- **<!-- gen:{{locale_count}} -->766<!-- /gen --> Unicode Locales**: Complete coverage of CLDR <!-- gen:{{cldr_version}} -->48.2.2<!-- /gen -->
+- **<!-- gen:{{locale_count}} -->766<!-- /gen --> Unicode Locales**: Complete coverage of CLDR <!-- gen:{{cldr_version}} -->48.2.3<!-- /gen -->
 - **Type-Safe Locales**: Locale identifiers are enum variants, checked at compile time
 - **CLDR Inheritance**: Fallback chains follow CLDR parent locales (`en-IN` inherits from `en-001`)
 - **Number Formatting**: Separators, grouping (including Indian `12,34,567`) and native digits
@@ -35,13 +35,13 @@ locale-rs = { version = "{{crate_version_req}}", features = ["all"] }
 -->
 ```toml
 [dependencies]
-locale-rs = "0.4.0-rc.1"
+locale-rs = "0.4.0-rc.2"
 
 # With number formatting support
-locale-rs = { version = "0.4.0-rc.1", features = ["nums"] }
+locale-rs = { version = "0.4.0-rc.2", features = ["nums"] }
 
 # With all features
-locale-rs = { version = "0.4.0-rc.1", features = ["all"] }
+locale-rs = { version = "0.4.0-rc.2", features = ["all"] }
 ```
 <!-- /gen -->
 

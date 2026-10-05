@@ -114,7 +114,7 @@ cargo run -p locale-dev -- readme --check  # only report outdated files (exit co
 
 A generated section is an HTML comment `gen:TEMPLATE`, followed by the rendered text and a closing `/gen` comment (view the raw Markdown for examples). Edit the template, never the rendered part: the `readme` CI check fails if they disagree. Placeholders are `{{cldr_version}}`, `{{locale_count}}`, `{{crate_version}}`, `{{crate_version_req}}` and `{{feature_table}}`. A template starting with a line break spans whole lines (badges, code blocks, tables). New Cargo features need a description in `FEATURE_DESCRIPTIONS` in `src/readme.rs`.
 
-The data currently covers <!-- gen:{{locale_count}} -->766<!-- /gen --> locales from CLDR <!-- gen:{{cldr_version}} -->48.2.2<!-- /gen -->.
+The data currently covers <!-- gen:{{locale_count}} -->766<!-- /gen --> locales from CLDR <!-- gen:{{cldr_version}} -->48.2.3<!-- /gen -->.
 
 ## Development
 
