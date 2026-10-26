@@ -60,11 +60,11 @@ locale-rs = { version = "{{crate_version_req}}", features = ["all"] }
 ```toml
 [dependencies]
 # Standard installation
-locale-rs = "0.4.0-rc.2"
+locale-rs = "0.5"
 
 # Or opt into specific features
-locale-rs = { version = "0.4.0-rc.2", features = ["nums"] }
-locale-rs = { version = "0.4.0-rc.2", features = ["all"] }
+locale-rs = { version = "0.5", features = ["nums"] }
+locale-rs = { version = "0.5", features = ["all"] }
 ```
 <!-- /gen -->
 
