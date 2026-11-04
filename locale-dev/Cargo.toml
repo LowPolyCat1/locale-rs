@@ -7,7 +7,7 @@ license = "MIT OR Apache-2.0"
 [dependencies]
 thiserror = { version = "2.0.18" }
 reqwest = { version = "0.13.3", features = ["blocking", "json"] }
-zip = "8.6.0"
+zip = "9.0.5"
 serde = { version = "1.0.228", features = ["derive"] }
 serde_json = "1.0.149"
 quote = "1.0.45"
